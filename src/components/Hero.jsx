@@ -30,7 +30,7 @@ const Hero = () => {
           </a>
         </Button>
         <Button variant="outline" asChild>
-          <a href="https://facebook.com/elshidpage" target="_blank" rel="noreferrer">
+          <a href="https://www.facebook.com/elshiddanzen.aquino/" target="_blank" rel="noreferrer">
             <Facebook className="mr-2 h-4 w-4" /> Facebook
           </a>
         </Button>
