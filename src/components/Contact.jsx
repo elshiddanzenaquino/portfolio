@@ -1,19 +1,26 @@
-import { Mail, MessageCircle } from "lucide-react";
+import { motion } from "framer-motion";
 
 const Contact = () => {
   return (
-    <section className="py-20 px-4 max-w-xl mx-auto text-center">
+    <motion.section
+      id="contact"
+      className="py-20 px-4 max-w-xl mx-auto text-center"
+      initial={{ opacity: 0, y: 30 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ once: true }}
+      transition={{ duration: 0.6 }}
+    >
       <h2 className="text-3xl font-bold mb-6">Contact</h2>
       <p className="mb-4">Let's work together or just say hi!</p>
       <div className="flex justify-center gap-6">
         <a href="mailto:elshid@example.com" className="hover:underline">
-          <Mail className="inline mr-2" /> elshid@example.com
+          elshiddanzenaquino@gmail.com
         </a>
-        <a href="https://m.me/elshidpage" className="hover:underline" target="_blank">
-          <MessageCircle className="inline mr-2" /> Messenger
+        <a href="https://www.facebook.com/elshiddanzen.aquino" target="_blank" className="hover:underline">
+          Messenger
         </a>
       </div>
-    </section>
+    </motion.section>
   );
 };
 
