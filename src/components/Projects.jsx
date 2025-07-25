@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { ExternalLink } from "lucide-react";
 import hrisLogo from "../assets/hris-login.png";
 import akibookLogo from "../assets/Aki_books.PNG";
-import expensesLogo from "../assets/expenses-tracker.png";
+import expensesLogo from "../assets/expenses-tracker.PNG";
 
 
 const projects = [
